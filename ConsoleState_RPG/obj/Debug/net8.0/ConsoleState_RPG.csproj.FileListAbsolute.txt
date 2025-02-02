@@ -12,3 +12,4 @@ C:\Users\pedro\Desktop\Odhinn\Estudos\Programacao\C#\ConsoleState_RPG\ConsoleSta
 C:\Users\pedro\Desktop\Odhinn\Estudos\Programacao\C#\ConsoleState_RPG\ConsoleState_RPG\obj\Debug\net8.0\ConsoleState_RPG.pdb
 C:\Users\pedro\Desktop\Odhinn\Estudos\Programacao\C#\ConsoleState_RPG\ConsoleState_RPG\obj\Debug\net8.0\ConsoleState_RPG.genruntimeconfig.cache
 C:\Users\pedro\Desktop\Odhinn\Estudos\Programacao\C#\ConsoleState_RPG\ConsoleState_RPG\obj\Debug\net8.0\ref\ConsoleState_RPG.dll
+C:\Users\pedro\Desktop\Odhinn\Estudos\Programacao\C#\ConsoleState_RPG\ConsoleState_RPG\obj\Debug\net8.0\ConsoleState_RPG.sourcelink.json

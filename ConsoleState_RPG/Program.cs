@@ -6,7 +6,8 @@ namespace ConsoleState_RPG
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(" Desenvolvendo um RPG ");
+            Game game = new Game();
+            game.Run();
         }  
      }
 }
