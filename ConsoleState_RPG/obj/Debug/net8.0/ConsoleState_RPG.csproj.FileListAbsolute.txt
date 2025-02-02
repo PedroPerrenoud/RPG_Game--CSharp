@@ -1,0 +1,14 @@
+C:\Users\pedro\Desktop\Odhinn\Estudos\Programacao\C#\ConsoleState_RPG\ConsoleState_RPG\bin\Debug\net8.0\ConsoleState_RPG.exe
+C:\Users\pedro\Desktop\Odhinn\Estudos\Programacao\C#\ConsoleState_RPG\ConsoleState_RPG\bin\Debug\net8.0\ConsoleState_RPG.deps.json
+C:\Users\pedro\Desktop\Odhinn\Estudos\Programacao\C#\ConsoleState_RPG\ConsoleState_RPG\bin\Debug\net8.0\ConsoleState_RPG.runtimeconfig.json
+C:\Users\pedro\Desktop\Odhinn\Estudos\Programacao\C#\ConsoleState_RPG\ConsoleState_RPG\bin\Debug\net8.0\ConsoleState_RPG.dll
+C:\Users\pedro\Desktop\Odhinn\Estudos\Programacao\C#\ConsoleState_RPG\ConsoleState_RPG\bin\Debug\net8.0\ConsoleState_RPG.pdb
+C:\Users\pedro\Desktop\Odhinn\Estudos\Programacao\C#\ConsoleState_RPG\ConsoleState_RPG\obj\Debug\net8.0\ConsoleState_RPG.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro\Desktop\Odhinn\Estudos\Programacao\C#\ConsoleState_RPG\ConsoleState_RPG\obj\Debug\net8.0\ConsoleState_RPG.AssemblyInfoInputs.cache
+C:\Users\pedro\Desktop\Odhinn\Estudos\Programacao\C#\ConsoleState_RPG\ConsoleState_RPG\obj\Debug\net8.0\ConsoleState_RPG.AssemblyInfo.cs
+C:\Users\pedro\Desktop\Odhinn\Estudos\Programacao\C#\ConsoleState_RPG\ConsoleState_RPG\obj\Debug\net8.0\ConsoleState_RPG.csproj.CoreCompileInputs.cache
+C:\Users\pedro\Desktop\Odhinn\Estudos\Programacao\C#\ConsoleState_RPG\ConsoleState_RPG\obj\Debug\net8.0\ConsoleState_RPG.dll
+C:\Users\pedro\Desktop\Odhinn\Estudos\Programacao\C#\ConsoleState_RPG\ConsoleState_RPG\obj\Debug\net8.0\refint\ConsoleState_RPG.dll
+C:\Users\pedro\Desktop\Odhinn\Estudos\Programacao\C#\ConsoleState_RPG\ConsoleState_RPG\obj\Debug\net8.0\ConsoleState_RPG.pdb
+C:\Users\pedro\Desktop\Odhinn\Estudos\Programacao\C#\ConsoleState_RPG\ConsoleState_RPG\obj\Debug\net8.0\ConsoleState_RPG.genruntimeconfig.cache
+C:\Users\pedro\Desktop\Odhinn\Estudos\Programacao\C#\ConsoleState_RPG\ConsoleState_RPG\obj\Debug\net8.0\ref\ConsoleState_RPG.dll
