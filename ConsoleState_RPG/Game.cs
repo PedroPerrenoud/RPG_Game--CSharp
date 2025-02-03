@@ -4,12 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace ConsoleState_RPG
 {
     class Game
     {
         //Variables
-        bool end;
+        private bool end;
+        public bool End
+        {
+            get { return this.end; }
+            set { this.end = value; }   
+        }
+        
+        private Stack<State> states;
 
 
         //Private Functions
@@ -18,12 +26,21 @@ namespace ConsoleState_RPG
             this.end = false;
         }
 
+        private void InitStates() 
+        {
+            this.states = new Stack<State>();
+            Console.WriteLine(this.states.GetHashCode());
+
+            //Push the first state
+            this.states.Push(new State(this.states));
+        }
 
         //Constructors and Destructors
         public Game()
         {
             Console.WriteLine( "Game Class working" );
             this.initVariables();
+            this.InitStates();
 
         }
 
