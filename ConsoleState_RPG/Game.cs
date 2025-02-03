@@ -31,7 +31,7 @@ namespace ConsoleState_RPG
         {
             while( !this.end )
             {
-                Console.WriteLine( "The game are cooking" );
+                Console.WriteLine( "If you want to finish [N<0]" );
                 Console.Write( "Choose a number [N>0]>> " );
                 int number = Convert.ToInt32( Console.ReadLine() );
 
