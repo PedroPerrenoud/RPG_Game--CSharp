@@ -1,0 +1,23 @@
+"Gui.cs" 
+
+string header;
+ public string Header
+ {
+     get { return this.header; }
+     set { this.header = value; }
+ }
+
+ public Gui()
+ {
+     this.header =
+     "Assassin's Request" +
+     "\n" +
+     "==================" +
+     "\n";
+
+ }
+
+ public void render()
+ {
+     Console.WriteLine(this.header);
+ }

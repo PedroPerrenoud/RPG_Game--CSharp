@@ -6,13 +6,8 @@ using System.Threading.Tasks;
 
 namespace ConsoleState_RPG
 {
-    internal class State
+    class Gui
     {
-        Stack<State> states;
-        public State(Stack<State> states)
-        {
-            this.states = states;
-            
-        }
+       
     }
 }
