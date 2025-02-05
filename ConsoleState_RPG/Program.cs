@@ -7,6 +7,7 @@ namespace ConsoleState_RPG
         static void Main(string[] args)
         {
             Game game = new Game();
+            Console.WriteLine(Gui.Title("Adriano's Revenge"));
             game.Run();
         }  
      }

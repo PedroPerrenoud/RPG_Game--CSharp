@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleState_RPG.States
 {
-    internal class State_Game : State
+    internal class State_CharacterCreator : State
     {
 
         public void ProcessInput(int input)
@@ -33,22 +33,25 @@ namespace ConsoleState_RPG.States
                     break;
             }
         }
-        public State_Game(Stack<State> states) : base(states)
-        {
+
+        public State_CharacterCreator(Stack<State> states) : base(states) 
+        { 
             
         }
 
-        override public void Update()
+        public override void Update()
         {
-            Console.WriteLine(Gui.MenuTitle("Game State"));
-            Console.WriteLine(Gui.MenuOption(1,"Create Character"));
-            Console.WriteLine(Gui.MenuOption(0,"Return to Menu"));
-
+            Console.WriteLine(Gui.MenuTitle("Character Creator"));
+            Console.WriteLine(Gui.MenuOption(1, "Name"));
+            Console.WriteLine(Gui.MenuOption(2, "Class"));
+            Console.WriteLine(Gui.MenuOption(3, "Attributes"));
+            Console.WriteLine(Gui.MenuOption(0, "Return"));
 
             Console.Write(">> ");
             int input = Convert.ToInt32(Console.ReadLine());
 
             this.ProcessInput(input);
         }
+
     }
 }

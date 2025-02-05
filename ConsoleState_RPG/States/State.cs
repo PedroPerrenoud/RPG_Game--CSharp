@@ -9,13 +9,19 @@ namespace ConsoleState_RPG.States
     class State
     {
        protected Stack<State> states;
+       protected bool end = false;
         public State(Stack<State> states)
         {
             this.states = states;
 
         }
 
-        public void Update()
+        public bool RquestEnd()
+        {
+            return this.end;
+        }
+
+        virtual public void Update()
         {
 
         }

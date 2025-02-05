@@ -33,6 +33,7 @@ namespace ConsoleState_RPG
 
             //Push the first state
             this.states.Push(new State_MainMenu(this.states));
+            this.states.Push(new State_Game(this.states));
         }
 
         //Constructors and Destructors
@@ -44,21 +45,14 @@ namespace ConsoleState_RPG
 
         public void Run()
         {
-            while( !this.end )
+            while (this.states.Count > 0)
             {
-                
+                    this.states.Peek().Update();
 
-                Console.WriteLine( "If you want to finish [N<0]" );
-                Console.Write( "Choose a number [N>0]>> " );
-                int number = Convert.ToInt32( Console.ReadLine() );
-
-                // I omitted the curly braces because the code is only one line long, so it can be written directly under the if/else statement without needing braces.
-                if (number < 0)
-                    this.end = true;
-                else
-                    Console.WriteLine( "The number choose are> " + number + "\n" );
+                    if (this.states.Peek().RquestEnd())
+                        this.states.Pop();
             }
-            Console.WriteLine( "Ending Game..." );
+            Console.WriteLine("Ending the Game....");
         }
     }
 }
