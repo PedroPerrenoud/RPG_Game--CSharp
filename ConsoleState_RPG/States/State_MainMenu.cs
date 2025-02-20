@@ -23,15 +23,15 @@ namespace ConsoleState_RPG.States
                     break;
                 
                 case 1: //New Game
-
+                    this.states.Push(new State_Game(this.states));
                     break;
 
                 case 2: //Create Character
                     this.states.Push(new State_CharacterCreator(this.states));
                     break;
                 
-                case 3:
-                    //Delete Character
+                case 3: //Delete Character
+
                     break;
                 
                 default:

@@ -13,20 +13,20 @@ namespace ConsoleState_RPG.States
         {
             switch (input)
             {
-                case 0: //Exit Game
+                case 0: //Return
                     this.end = true;
                     break;
 
-                case 1: //New Game
+                case 1: //Define a Name
 
                     break;
 
-                case 2: //Create Character
-                    this.states.Push(new State_CharacterCreator(this.states));
+                case 2: //Define Class
+                    
                     break;
 
-                case 3:
-                    //Delete Character
+                case 3: //Define Attributes
+                    
                     break;
 
                 default:

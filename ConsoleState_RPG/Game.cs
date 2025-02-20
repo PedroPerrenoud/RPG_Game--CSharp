@@ -33,7 +33,6 @@ namespace ConsoleState_RPG
 
             //Push the first state
             this.states.Push(new State_MainMenu(this.states));
-            this.states.Push(new State_Game(this.states));
         }
 
         //Constructors and Destructors

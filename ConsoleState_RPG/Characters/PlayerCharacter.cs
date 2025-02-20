@@ -29,7 +29,7 @@ namespace ConsoleState_RPG.Characters
 
         //Actions
         int damage      = 1;       //Damage is the extent that you hurts your oponent [WeaponDamage + strength].
-        int ctrDamage   = 1;       //Critic Damage is your damage times two. You only git a Critical Damage when get 20 on dice roll.
+        int ctrDamage   = 1;       //Critic Damage is your damage times two. You only get a Critical Damage when get natural 20 on dice roll.
         int accuracy    = 1;       //Accuracy action is the Bonus thath you have to hit your enemy with ranged weapons or guns [dexterity].
         int dodge       = 1;       //Dodge action is the Bonus that you have to avoid attacks and take no damage (10 + dexterity).
         int block       = 1;       //Block action is the Bonus that you have to decrease attacks damage (10 + strength) [Damage decreased = 2 + strength].
