@@ -1,13 +1,21 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ConsoleState_RPG.Characters;
 
 namespace ConsoleState_RPG.States
 {
     internal class State_CharacterCreator : State
     {
+        ArrayList characterList;
+        public State_CharacterCreator(Stack<State> states, ArrayList character_list) : base(states) 
+        { 
+            this.characterList = character_list;
+        }
+
 
         public void ProcessInput(int input)
         {
@@ -18,25 +26,23 @@ namespace ConsoleState_RPG.States
                     break;
 
                 case 1: //Define a Name
-
+                    this.characterList.Add(new PlayerCharacter("Bob"));
+                    this.characterList.Add(new PlayerCharacter("Thor"));
+                    this.characterList.Add(new PlayerCharacter("Loki"));
+                    Console.WriteLine(Gui.Annoucement("Characters created"));
                     break;
 
                 case 2: //Define Class
-                    
+
                     break;
 
                 case 3: //Define Attributes
-                    
+
                     break;
 
                 default:
                     break;
             }
-        }
-
-        public State_CharacterCreator(Stack<State> states) : base(states) 
-        { 
-            
         }
 
         public override void Update()

@@ -21,8 +21,8 @@ namespace ConsoleState_RPG.States
 
                     break;
 
-                case 2: //Create Character
-                    this.states.Push(new State_CharacterCreator(this.states));
+                case 2: //
+                    
                     break;
 
                 case 3:
@@ -41,7 +41,6 @@ namespace ConsoleState_RPG.States
         override public void Update()
         {
             Console.WriteLine(Gui.MenuTitle("Game State"));
-            Console.WriteLine(Gui.MenuOption(1,"Create Character"));
             Console.WriteLine(Gui.MenuOption(0,"Return to Menu"));
 
 

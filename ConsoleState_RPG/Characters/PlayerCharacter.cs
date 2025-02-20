@@ -50,10 +50,10 @@ namespace ConsoleState_RPG.Characters
         }
 
 
-        public PlayerCharacter() 
+        public PlayerCharacter(String Name) 
         {
-
             CalculateStats();  
+            this.name = Name;
         }
 
         public override string ToString()

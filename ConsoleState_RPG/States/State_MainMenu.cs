@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,10 +9,11 @@ namespace ConsoleState_RPG.States
 {
     internal class State_MainMenu : State
     {
-        public State_MainMenu(Stack<State> states)
+        private ArrayList characterList;
+        public State_MainMenu(Stack<State> states, ArrayList character_list)
             : base(states) 
         {
-            
+            this.characterList = character_list;
         }
 
         public void ProcessInput(int input)
@@ -27,7 +29,7 @@ namespace ConsoleState_RPG.States
                     break;
 
                 case 2: //Create Character
-                    this.states.Push(new State_CharacterCreator(this.states));
+                    this.states.Push(new State_CharacterCreator(this.states, this.characterList));
                     break;
                 
                 case 3: //Delete Character
